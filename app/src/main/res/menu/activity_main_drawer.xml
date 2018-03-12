@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_riwayat"
+            android:title="@string/riwayat" />
+        <item
+            android:id="@+id/navPemasukan"
+            android:icon="@drawable/ic_pemasukan"
+            android:title="@string/pemasukan" />
+
+        <item
+            android:id="@+id/navBluetooth"
+            android:icon="@drawable/ic_bluetooth"
+            android:title="@string/bluetooth" />
+        <item
+            android:id="@+id/navLaporan"
+            android:icon="@drawable/ic_laporan"
+            android:title="@string/laporan" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_power"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "597347316302",
+    "firebase_url": "https://tourtle-d2450.firebaseio.com",
+    "project_id": "tourtle-d2450",
+    "storage_bucket": "tourtle-d2450.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597347316302:android:f241f38209211500",
+        "android_client_info": {
+          "package_name": "tourtle.ticketing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597347316302-e2oug755tt29niu51jacikiliscp8nik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tourtle.ticketing",
+            "certificate_hash": "fa69ae239c6145df40e3ce7c2138aeaaa73a031a"
+          }
+        },
+        {
+          "client_id": "597347316302-s081j4qfbh1np9q82u43sb38vidr4mva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGtPofEjvej7Vh-cnfn9UM69URDqt6ic0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597347316302-s081j4qfbh1np9q82u43sb38vidr4mva.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
