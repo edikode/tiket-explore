@@ -1,1 +1,1 @@
-include ':app', ':btprint-release'
+include ':app', ':btprint-release', ':btprint-debug', ':btsdk', ':otgprint', ':otgprints', ':btprints', ':btprint-'

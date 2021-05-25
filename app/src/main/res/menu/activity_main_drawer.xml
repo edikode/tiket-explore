@@ -12,19 +12,28 @@
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_riwayat"
             android:title="@string/riwayat" />
+
+        <item
+            android:id="@+id/nav_online"
+            android:icon="@drawable/ic_ticket_online"
+            android:title="@string/nav_online" />
         <item
             android:id="@+id/navPemasukan"
             android:icon="@drawable/ic_pemasukan"
             android:title="@string/pemasukan" />
 
         <item
-            android:id="@+id/navBluetooth"
-            android:icon="@drawable/ic_bluetooth"
-            android:title="@string/bluetooth" />
-        <item
             android:id="@+id/navLaporan"
             android:icon="@drawable/ic_laporan"
             android:title="@string/laporan" />
+        <item
+            android:id="@+id/navBluetooth"
+            android:icon="@drawable/ic_bluetooth"
+            android:title="@string/bluetooth" />
+
+        <item android:id="@+id/navSetting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/nav_setting"/>
 
     </group>
 

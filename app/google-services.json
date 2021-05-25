@@ -49,6 +49,37 @@
           "status": 2
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597347316302:android:70ef05f092e4dea2",
+        "android_client_info": {
+          "package_name": "tourtle.ticketing2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597347316302-s081j4qfbh1np9q82u43sb38vidr4mva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGtPofEjvej7Vh-cnfn9UM69URDqt6ic0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
     }
   ],
   "configuration_version": "1"

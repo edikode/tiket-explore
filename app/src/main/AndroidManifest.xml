@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="tourtle.ticketing">
+    package="tourtle.ticketing2">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".Tourtle"
+        android:name=".utils.KtApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_logo"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher_foreground"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".kotlin.ui.RiwayatTiket2"></activity>
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
+            android:name=".kotlin.MainActivity2"
+            android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,16 +26,51 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RiwayatTiket" />
+        <activity android:name=".kotlin.LaporanTiket" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9508974619768052~8753024857" />
+
+        <activity
+            android:name=".DetailTiketOnline"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TicketOnline"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditProfilWisata"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Setting_print"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".RiwayatTiket"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Login"
             android:label="@string/login" />
-        <activity android:name=".ReviewTiket" />
-        <activity android:name=".DetailTiket" />
-        <activity android:name=".Rekap" />
+        <activity
+            android:name=".ReviewTiket"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailTiket"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Rekap"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".BluetoothCoba" />
-        <activity android:name=".Laporan"
-            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".Laporan"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="941d02508e2eff3157fcf7ab8ac28959e30d5b04" />
     </application>
 
 </manifest>

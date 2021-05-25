@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/btprint-release/btprint-release.iml" filepath="$PROJECT_DIR$/btprint-release/btprint-release.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ticketing.iml" filepath="$PROJECT_DIR$/ticketing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ticketing2.iml" filepath="$PROJECT_DIR$/ticketing2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ticketing2.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ticketing2.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/btprint-/ticketing2.btprint-.iml" filepath="$PROJECT_DIR$/.idea/modules/btprint-/ticketing2.btprint-.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/btprint-debug/ticketing2.btprint-debug.iml" filepath="$PROJECT_DIR$/.idea/modules/btprint-debug/ticketing2.btprint-debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/btprint-release/ticketing2.btprint-release.iml" filepath="$PROJECT_DIR$/.idea/modules/btprint-release/ticketing2.btprint-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/btprints/ticketing2.btprints.iml" filepath="$PROJECT_DIR$/.idea/modules/btprints/ticketing2.btprints.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/btsdk/ticketing2.btsdk.iml" filepath="$PROJECT_DIR$/.idea/modules/btsdk/ticketing2.btsdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/otgprint/ticketing2.otgprint.iml" filepath="$PROJECT_DIR$/.idea/modules/otgprint/ticketing2.otgprint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/otgprints/ticketing2.otgprints.iml" filepath="$PROJECT_DIR$/.idea/modules/otgprints/ticketing2.otgprints.iml" />
     </modules>
   </component>
 </project>

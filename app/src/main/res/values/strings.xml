@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Ticketing</string>
+    <string name="app_name">E-Ticketing Banyuwangi</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -12,6 +12,8 @@
     <string name="jumlah_pendapatan_tiket">Jumlah Pendapatan Tiket</string>
     <string name="jumlah_pendapatan_parkir">Jumlah Pendapatan Parkir</string>
     <string name="total">Total</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
     <string name="pemasukan">Pemasukan</string>
     <string name="jenis_kendaraan">Jenis Kendaraan</string>
     <string name="jenis_tiket">Jenis Tiket</string>
@@ -19,6 +21,7 @@
     <string name="tiket">Tiket</string>
     <string name="rodaDua">Roda Dua</string>
     <string name="bus">Bus</string>
+    <string name="refresh">Refresh</string>
     <string name="rodaEmpat">Roda Empat</string>
     <string name="jumlah_kendaraan">Jumlah Kendaraan</string>
     <string name="jumlah_orang">Jumlah Orang</string>
@@ -26,12 +29,35 @@
     <string name="home">Beranda</string>
     <string name="riwayat">Riwayat</string>
 
+    <string name="total_biaya">Total Biaya</string>
+
+    <string name="print">Print</string>
+
+    <string name="bluetooth">Bluetooth</string>
+    <string name="nav_setting">Setting</string>
+    <string name="nav_online">Tiket Online</string>
+    <string name="tab_title_harian">Harian</string>
+
+
+    <string name="tab_title_bulanan">Bulanan</string>
+
+    <string name="pilih_hari">Pilih Hari</string>
+    <string name="laporan">Laporan</string>
+    <string name="pajak">Pajak</string>
+    <string name="pilih_bulan">Pilih Bulan</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="manca">Mancanegara</string>
+    <string name="Domestik">Domestik</string>
+
+    <string name="next">next</string>
+
     <string-array name="country_name">
         <item>Domestik</item>
         <item>Manca</item>
         <item>Weekend</item>
     </string-array>
 
+    <!-- TODO: Remove or change this placeholder text -->
     <string-array name="jenisKendaraan">
         <item>Roda dua</item>
         <item>Roda empat</item>
@@ -39,11 +65,8 @@
         <item>Jalan kaki</item>
     </string-array>
 
-    <string name="total_biaya">Total Biaya</string>
-    <string name="print">Print</string>
-
-
     <string-array name="tiket">
+        <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -95,15 +118,6 @@
         <item>49</item>
         <item>50</item>
     </string-array>
-
-    <string name="bluetooth">Bluetooth</string>
-    <string name="tab_title_harian">Harian</string>
-    <string name="tab_title_bulanan">Bulanan</string>
-    <string name="pilih_hari">Pilih Hari</string>
-    <string name="laporan">Laporan</string>
-    <string name="pajak">Pajak</string>
-    <string name="pilih_bulan">Pilih Bulan</string>
-
     <string-array name="kendaraan">
         <item>0</item>
         <item>1</item>
@@ -118,6 +132,18 @@
         <item>10</item>
     </string-array>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="footer">Footer</string>
+    <string name="namaWisata">Nama Wisata</string>
+    <string name="tiketWeekend">Tiket Weekend</string>
+
+    <string name="prompt_pilih_tanggal">Pilih Tanggal</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
 </resources>
