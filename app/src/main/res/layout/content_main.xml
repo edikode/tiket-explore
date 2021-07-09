@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Spinner
-        android:id="@+id/spinJumlahOrang"
+        android:id="@+id/sp_jmlOrang"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:entries="@array/tiket"
@@ -36,33 +36,13 @@
         android:layout_height="wrap_content" />
 
     <Spinner
-        android:id="@+id/negara"
+        android:id="@+id/sp_jenisTiket"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:drawable/btn_dropdown"
         android:layout_marginTop="5dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"/>
-
-    <TextView
-        android:text="@string/jumlah_kendaraan"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <Spinner
-        android:id="@+id/spinKendaraan"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:entries="@array/kendaraan"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginTop="5dp"
-        android:background="@android:drawable/btn_dropdown"
-        android:prompt="@string/jumlah_kendaraan" />
-
 
     <TextView
         android:text="@string/jenis_kendaraan"
@@ -73,13 +53,32 @@
         android:layout_height="wrap_content" />
 
     <Spinner
-        android:id="@+id/jenisKendaraan"
+        android:id="@+id/sp_jenisKendaraan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:drawable/btn_dropdown"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:text="@string/jumlah_kendaraan"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/sp_jmlKendaraan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/kendaraan"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:prompt="@string/jumlah_kendaraan" />
 
     <Button
         android:id="@+id/btnSubmit"
@@ -89,4 +88,11 @@
         android:layout_marginStart="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="vertical"
+        android:id="@+id/rv_tiket"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>

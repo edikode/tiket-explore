@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ticketing2.iml" filepath="$PROJECT_DIR$/ticketing2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ticketing2.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ticketing2.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/btprint-/ticketing2.btprint-.iml" filepath="$PROJECT_DIR$/.idea/modules/btprint-/ticketing2.btprint-.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/btprint-debug/ticketing2.btprint-debug.iml" filepath="$PROJECT_DIR$/.idea/modules/btprint-debug/ticketing2.btprint-debug.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/btprint-release/ticketing2.btprint-release.iml" filepath="$PROJECT_DIR$/.idea/modules/btprint-release/ticketing2.btprint-release.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/btprints/ticketing2.btprints.iml" filepath="$PROJECT_DIR$/.idea/modules/btprints/ticketing2.btprints.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/btsdk/ticketing2.btsdk.iml" filepath="$PROJECT_DIR$/.idea/modules/btsdk/ticketing2.btsdk.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/otgprint/ticketing2.otgprint.iml" filepath="$PROJECT_DIR$/.idea/modules/otgprint/ticketing2.otgprint.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/otgprints/ticketing2.otgprints.iml" filepath="$PROJECT_DIR$/.idea/modules/otgprints/ticketing2.otgprints.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tiket_explore.iml" filepath="$PROJECT_DIR$/.idea/modules/tiket_explore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/tiket_explore.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/tiket_explore.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/btprint-/tiket_explore.btprint-.iml" filepath="$PROJECT_DIR$/.idea/modules/btprint-/tiket_explore.btprint-.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/btprint-debug/tiket_explore.btprint-debug.iml" filepath="$PROJECT_DIR$/.idea/modules/btprint-debug/tiket_explore.btprint-debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/btprint-release/tiket_explore.btprint-release.iml" filepath="$PROJECT_DIR$/.idea/modules/btprint-release/tiket_explore.btprint-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/btprints/tiket_explore.btprints.iml" filepath="$PROJECT_DIR$/.idea/modules/btprints/tiket_explore.btprints.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/btsdk/tiket_explore.btsdk.iml" filepath="$PROJECT_DIR$/.idea/modules/btsdk/tiket_explore.btsdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/otgprint/tiket_explore.otgprint.iml" filepath="$PROJECT_DIR$/.idea/modules/otgprint/tiket_explore.otgprint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/otgprints/tiket_explore.otgprints.iml" filepath="$PROJECT_DIR$/.idea/modules/otgprints/tiket_explore.otgprints.iml" />
     </modules>
   </component>
 </project>

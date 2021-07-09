@@ -42,7 +42,6 @@ class RiwayatOnlineFragment : Fragment() {
         rvTiketOnline.layoutManager =
                 LinearLayoutManager(activity, LinearLayoutManager.VERTICAL, false)
 
-        adapter = RiwayatTiketOnlineAdapter(listTiket,activity!!.applicationContext)
         rvTiketOnline.adapter = adapter
 
         var masuk = 0

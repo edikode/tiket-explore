@@ -36,16 +36,9 @@
     <string name="bluetooth">Bluetooth</string>
     <string name="nav_setting">Setting</string>
     <string name="nav_online">Tiket Online</string>
-    <string name="tab_title_harian">Harian</string>
 
 
-    <string name="tab_title_bulanan">Bulanan</string>
-
-    <string name="pilih_hari">Pilih Hari</string>
     <string name="laporan">Laporan</string>
-    <string name="pajak">Pajak</string>
-    <string name="pilih_bulan">Pilih Bulan</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="manca">Mancanegara</string>
     <string name="Domestik">Domestik</string>
 
@@ -57,12 +50,11 @@
         <item>Weekend</item>
     </string-array>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string-array name="jenisKendaraan">
+        <item>Jalan kaki</item>
         <item>Roda dua</item>
         <item>Roda empat</item>
         <item>Bus</item>
-        <item>Jalan kaki</item>
     </string-array>
 
     <string-array name="tiket">
@@ -118,6 +110,7 @@
         <item>49</item>
         <item>50</item>
     </string-array>
+
     <string-array name="kendaraan">
         <item>0</item>
         <item>1</item>
@@ -139,9 +132,6 @@
 
     <string name="prompt_pilih_tanggal">Pilih Tanggal</string>
     <string name="title_activity_main">MainActivity</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
 
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
